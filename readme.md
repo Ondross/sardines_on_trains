@@ -2,12 +2,14 @@
 
 #### To Run:
 Install PyGame
+
 Run trafficView.py
 
 ### Description of Project:
 This simplified simulation describes bus route systems using graphes and aims to reduce over/under-use of bus seating by predicting the number of passengers that will use each leg of a bus route and designing individual routes with consistent usage between each stop. This allows one bus size to fit the demands of a route.
 
 Graph Nodes = Bus Stops
+
 Graph Edges = Passages between stops
 
 
