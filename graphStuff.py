@@ -1,3 +1,9 @@
+#Sardines on a Train
+#Andrew Heine
+#Aiswarya Kolisetty
+
+#Contains useful classes for representing bus routes
+
 from trafficControl import *
 
 

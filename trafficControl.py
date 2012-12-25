@@ -1,12 +1,12 @@
-#11.14.11
-#Eve: integrated iteration (now it works!!) with Andrew's Andremas trafficControl in which he fixed a lot of bugs in original PathFinding algorithms we were using
-#ais: modified uniqueDistances to find next route based on least vertices overlap (not edge overlap like before)
+#Sardines on a Train - Traffic Simulation
+#Andrew Heine
+#Aiswarya Kolisetty
+
+#Contains useful functions for finding paths and bus routes
 
 from math import *
 from random import *
 from copy import *
-
-#Traffic Instruction Set
 
 def connect(a, b):
     a.neighbors.append(b)

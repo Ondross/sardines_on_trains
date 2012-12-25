@@ -1,9 +1,11 @@
-#Andrew Heine 11/19/11
-#The user can place intersections, roads, people, and buses.
-#The people are given destinations, and the buses have different
-#algorithms for taking the people to their destination.
-#At the end, the people's happiness is evaluated based on
-#actual travel time vs ideal travel time.
+#Sardines on a Train
+
+#Andrew Heine 
+#Aiswarya Kolisetty
+#11/19/11
+
+#Displays graphs representing bus routes
+
 
 import pygame
 from graphStuff import *

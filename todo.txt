@@ -1,0 +1,26 @@
+--make head>tail routes = one route
+	maybe there is a better solution, but the problem is this: given a triangle, the shortest path is always one edge. My algorithm will always generate multiple bus routes, when a two edge bus route is better (a potentially a loop is even better). Is this a hacky solution?
+
+--Update vthisv process, particularly around the early steps. Get rid of the "threshold" variable in the GUI probably, but think more about it.
+def firstRoute()
+1. find the stan. dev. of each path first
+2. take lowest value and define threshold based on that (within 10% or something)
+3. throw out ones that aren't in this
+4. from the leftover, find one of highest weight
+
+for routes(2:end)
+ 
+condition 1: a path must have > 0 intersections with the firstRoute (12/25/12: should be with "any other route", I think it is)
+condition 2: define threshold for the minimum standard deviation of this route
+-- has to be within 10% of stan. dev. of firstRoute (will have consistent traffic)
+(make this a function because used twice -- also in steps 1,2 of firstRoute())
+condition 3: min(overlap) of edges with the firstRoute -- take smallest
+or condition 4: max (distance - overlap) of the routes -- take largest
+
+--comment code some.... yeahhh.
+
+--add something that explains the people/happiness potential. probably don't code that up.
+
+--add something about how this is combined with some other simple metrics, such as using long routes and overall high-demand routes, but could be applied with other existing complicated bus techniques to improve route efficiency.
+
+--the solution to this threshold problem may be to actually mathematically define Demand Consistency! I am saying that, but using std dev. Std Dev will be a part of it, but I should have some normalized value from 0 to 1... "Relative Demand Consistency??"

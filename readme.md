@@ -5,6 +5,14 @@ Install PyGame
 
 Run trafficView.py
 
+Select "Vertex/Edge" to start drawing a graph of potential bus routes.
+
+Adjust "Threshold" to set the maximum acceptable standard deviation of edge importance (defined below).
+
+Select "Make Routes" to calculate an iteration of possible bus routes.
+
+Hit "Clear" to start over.
+
 ### Description of Project:
 This simplified simulation describes bus route systems using graphes and aims to reduce over/under-use of bus seating by predicting the number of passengers that will use each leg of a bus route and designing individual routes with consistent usage between each stop. This allows one bus size to fit the demands of a route.
 
