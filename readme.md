@@ -14,7 +14,7 @@ An edge's demand is equal to the number of shortest paths that it is a part of, 
 Relative demand consistency is defined using the set of all shortest paths in the graph:
 
 
-![Relative Path Demand Consistency](sardines_on_trains/rdc.gif)
+![Relative Path Demand Consistency](sardines_on_trains/blob/master/rdc.gif)
 
 
 
