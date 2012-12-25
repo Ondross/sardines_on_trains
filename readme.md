@@ -28,7 +28,7 @@ The most consistent bus routes will obviously be those of path length 1. We did 
 
 ##### For the first route:
 1. Find all shortest paths
-2. Find the relative path demand consistency of the longest shortest path. 
+2. Find the relative demand consistency of the longest shortest path. 
 3. Throw out shortest paths that have less consistency than this value.
 4. The first bus route is the route that, of the remaining routes, has the highest total demand.
 
