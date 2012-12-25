@@ -7,15 +7,14 @@ Nodes = Necessary Bus Stops
 Edges = Roads between stops
 
 
-This simplified simulation optimizes one aspect of bus route efficiency by defining new graph theory terms called "edge demand" and "relative path demand consistency."
+This simplified simulation optimizes one aspect of bus route efficiency by defining new graph theory terms called "edge demand" and "relative demand consistency" of a path, or set of edges.
 
 An edge's demand is equal to the number of shortest paths that it is a part of, because it is assumed that these edges will be used more in travel.
 
-Relative path demand consistency is defined using the set of all shortest paths in the graph:
+Relative demand consistency is defined using the set of all shortest paths in the graph:
 
-RPDC = 1 - 
-<u>Standard_Deviation(edge_demand_in_path)</u>
-(greatest_standard_deviation_among_shortest_paths)
+
+![Relative Path Demand Consistency](rdc.gif)
 
 
 
